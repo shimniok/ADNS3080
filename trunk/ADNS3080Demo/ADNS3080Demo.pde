@@ -25,8 +25,9 @@ unsigned int surface_quality;
 void setup() 
 {
   Serial.begin(115200);
-  Serial.println("www.bot-thoughts.com\nOptical Flow test program V1.0\n");
-  
+  Serial.println("www.bot-thoughts.com\nOptical Flow test program V1.0");
+  Serial.println("Based on APM/ArduCopter AP_OpticalFlow library");
+  Serial.println("by Randy Mackay");
   delay(1000);
 	
   // flowSensor initialization
